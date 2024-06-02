@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Job Application Form</title>
+  <link rel="stylesheet" href="basic.css"> 
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <div class="main">
+        <h1>Job Application Form</h1>
+        <p>Please Fill Out the Form Below to Submit Your Job Application</p>
+      </div>
+      <hr>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <div class="field">
+          <label for="first">Name*</label><br>
+          <input type="text" id="first" name="first" placeholder="First Name" required><br>
+           First Name
+        </div>
+        <div class="field">
+          <label for="last"></label><br>
+          <input type="text" id="last" name="last" placeholder="Last Name" required><br>
+          Last Name
+        </div>
+        <div class="field1">
+          <label for="email"><b>E-mail*</b></label><br>
+          <input type="email" id="email" name="email" placeholder="ex:myname@example.com" required><br>
+        </div>
+        <div class="field1">
+          <label for="phoneno"><b>Phone Number*</b></label><br>
+          <input type="tel" id="phoneno" name="phoneno" placeholder="000-000-0000" required><br>
+        </div>
+        <div class="field2">
+            <label ><b>Gender</b></label><br>
+            
+            <input type="radio" id="male" name="gender" value="male" >
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="trans" name="gender" value="trans">
+            <label for="trans">Transgender</label><br>
+          </div>
+          
+        <div class="field3">
+          <label for="city"><b>Current City</b></label><br>
+           <select id="city" name="city">
+            <option value="" disabled selected>Please Select</option>
+            <option value="hyderabad">Hyderabad</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="chennai">Chennai</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="pune">Pune</option>
+          </select>
+        </div>
+        <div class="field4">
+          <label for="position"><b>Applied Position</b></label><br>
+          <input type="text" id="position" name="position">
+        </div>
+        <div class="field4">
+          <label for="date"><b>Earliest Possible Start Date</b></label><br>
+          <input type="date" id="date" name="date">
+        </div>
+        <div class="field5">
+          <label id="inter"  for="interview"><b>Preferred Interview Date</b></label><br>
+          <input type="date" id="interview" name="interview">
+        </div>
+        <div class="field5">
+          <label id="timeee" for="time"><b>Preferred Time</b></label><br>
+          <input id="time" type="time" name="time">
+        </div>
+        <div class="field6">
+            <form id="uploadForm" enctype="multipart/form-data">
+                <label id="upload" for="fileInput"><b>Upload Resume*</b></label><br>
+                <div class="drop-area" id="dropArea">
+                    <label for="fileInput" class="cloud-upload-label">
+                        <img id="cloud" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAY5JREFUSEvtlYFNwzAQRa+TAJMAm8AkwCTQSWgngU2gL/KPftxzbCSgQvSkKErs3L//7/uyiRPF5kS4cQb+NeX/lNR3EXEZERflvo+IXUS8l2tIta8wBvChgGXJAX46rL+MII8Cvx5Y3VQJASJg7wH7+x77EeDHwpTkLVYU9WxFwJzvmtEDhs1b+Romtx0ZAaclxCr4GrCzgOnVSO9KoZK/mb+1UPc0q17J1WvV5a2h2Hp92lcDkwy53Ei4FLPUQXHsz5T46MldA3u1a+50RbLC8IUUSfM48KiRUANgj7oV2fHDmBRxJLUnXGwyhAxUx4x2KLFapYEDKXpN3qnnzphjQH+JzBSuSGbwRWLb4O2bCTmws8mASXBdsRdbOZd7bUQvmLVppNbm6rqxAI+0RTX63iawy6KBn53DUWD20Wf1fCaaDRA/ClQ9O7GMQZ4zYM0AMeXZfyAL52fA2RBRMpkjA245XsUv5nxvVpPMDaXfnSQkafZOpuO+rVQ7OsfZEfmxd73f4hn42xT4f1J/ApYkZh9PNA5/AAAAAElFTkSuQmCC" alt="Cloud Icon" class="cloud-icon">
+                    </label>
+                    <span class="drop-message"><strong>Upload a File</strong></span>
+                    <span class="drop-message">Drag & Drop files here.</span>
+                    <input type="file" id="fileInput" multiple>
+                </div>
+            </form>
+            <div id="fileList"></div>
+        </div>
+        
+        <hr>
+        <div class="field">
+          <input type="submit" id="apply" name="apply" value="Apply" onclick="return validation()">
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
