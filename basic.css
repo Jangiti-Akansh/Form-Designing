@@ -1,0 +1,222 @@
+body {
+    background-color: #7CB9E8; 
+    font-family: sans-serif;
+  }
+  .main {
+        text-align: center;
+  }
+  .container {
+    height: auto; 
+    width: 550px;
+    margin: 0 auto; 
+    padding: 30px; 
+  }
+  .field{
+    display:inline-block;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 54.25*17.60;
+
+  }
+  #first{
+    margin-right:40px;
+    margin-top: 10px;
+  }
+  #last{
+    
+    margin-top: 10px;
+  }
+  .field1{
+    display: inline-block;
+    color: black;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 54.25*17.60;
+
+  }
+  .field2{
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 54.25*17.60;
+  }
+  #email{
+    margin-top: 10px;
+  }
+  #phoneno{
+    margin-top: 10px;
+  }
+  #male{
+    margin-top: 10px;
+  }
+  #female{
+    margin-top: 10px;
+  } 
+  #trans{
+    margin-top: 10px;
+  }
+  .field3{
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    font-size: 54.25*17.60;
+
+  }
+  .field4{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 27px;
+    margin-left: 30px;
+    font-size: 54.25*17.60;
+
+  }
+  .field5{
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 12px;
+    margin-left: 30px;
+    font-size: 54.25*17.60;
+
+  }
+  #city{
+    margin-top: 10px;
+  }
+  #date{
+    margin-top: 10px;
+  }
+  #time{
+    margin-top: 10px;
+  }
+  #interview{
+    margin-top: 10px;
+  }
+  #position{
+    margin-top: 10px;
+  }
+
+  
+  .form {
+    height: auto;
+    width: 500px;
+    background-color: white; 
+    flex-direction: column; 
+    justify-content: center; 
+    padding: 20px; 
+  }
+  #inter{
+    margin-top: 8px;
+  }
+  
+  #time{
+    margin-top: 8px;
+  }
+  
+  h1 {
+    font-size: 24px; 
+    margin-bottom: 15px; 
+  }
+  
+  .field {
+    margin-bottom: 20px; 
+  }
+  
+  .field label {
+    font-weight: bold; 
+  }
+  
+  .field input[type="text"],
+  .field select {
+    border: 1px solid #937e7e; 
+    border-radius: 5px; 
+    margin-bottom: 5px;
+  }
+  .field1 input[type="email"],
+  .field input[type="tel"],
+  .field select {
+    border: 1px solid #937e7e; 
+    border-radius: 5px; 
+  }
+  .field3 input[type="city"],
+  .field select {
+    border: 1px solid #937e7e; 
+    border-radius: 5px; 
+  }
+  .field input[type="position"],
+  .field select {
+    border: 1px solid #937e7e; 
+    border-radius: 5px;
+  }
+  
+  .field input[type="submit"] {
+    background-color: #808080; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  .field input[type="submit"]:hover {
+    background-color: #b89e9e; 
+  }
+  ::placeholder{
+    opacity: 1;
+  }
+  #upload{
+    margin-left: 30px;
+    font-family: sans-serif;
+
+  }
+  .filed6 {
+    max-width: 600px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+  }
+
+  
+  .drop-area {
+    position: relative;
+  width: 450px; 
+  height: 100px;
+  border: 2px dashed #ccc;
+  display: flex;
+  margin-top: 15px;
+  margin-right: 30px;
+  margin-left: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .drop-message {
+    font-size: 14px;
+  }
+
+#fileInput {
+    display: none; 
+  }
+  #cloud {
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+  }
+  .cloud-upload-label {
+    position: relative;
+    cursor: pointer;
+}
+
+#fileInput {
+    display: none;
+}
+ 
+#apply{
+    margin-left:200px;
+}
+ 
+#fileList {
+   margin-top: 20px;
+}
+
